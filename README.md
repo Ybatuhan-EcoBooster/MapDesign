@@ -44,7 +44,7 @@ Additionally, I prepared color sets for you with color images. You can choose wh
 
 ## Image Example (But With Photoshop) 👻
 
-![WARSAW](https://github.com/Ybatuhan-EcoBooster/MapDesign/assets/110935969/3d6ea6c0-5337-48da-aabb-695325c743c3)
+![WARSAW](https://github.com/Ybatuhan-EcoBooster/MapDesign/blob/main/Example_Photo/WARSAW_down.png)
 
 <h2 align="center">
 Figure 1

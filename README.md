@@ -2,7 +2,7 @@
 
 This project creates blueprint city maps 🗺. [OSMnx](https://osmnx.readthedocs.io/en/stable/user-reference.html) python library is helping these visiulazastion images. My code specifically focuses on city maps where looking in above. Before starting this code enter the parameters. You can get an image with your color passion 🔵. After that, you can use Photoshop and create own your photo frame such as Figure 1 🖼.
 
-!! If you want to add water 💧 way 🧐 !!
+!! If you want to add water 💧 way 🧐 you can make it !!
 
 ### Also You can Visit My [Gumroad Store](https://pixelpallette.gumroad.com/) For Directly to Buy my stuff 🤩
 

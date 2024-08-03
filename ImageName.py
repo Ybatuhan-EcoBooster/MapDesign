@@ -4,7 +4,7 @@ import os
 
 def FileName():
     # Directory path where the PNG files are located
-    directory = "D:\dosyalar\Github\MapDesign\Images"
+    directory = "D:/Github/MapDesign/Images"
 
     # Search for PNG files in the directory
     png_files = glob.glob(os.path.join(directory, "*.png"))

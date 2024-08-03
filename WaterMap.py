@@ -86,7 +86,7 @@ class WaterAdd():
                                 edge_linewidth=WaterWidths, edge_alpha=1)
 
         fig.tight_layout(pad=0)
-        fig.savefig(f".\Images/{FileNameColor}water.png", dpi=1000, bbox_inches='tight', format="png", 
+        fig.savefig(f"D:/Github/MapDesign/Images/{FileNameColor}water.png", dpi=1000, bbox_inches='tight', format="png", 
                     facecolor=fig.get_facecolor(), transparent=True)
         
         return fig

@@ -6,8 +6,8 @@ import webcolors
 
 def Colors():
     # Dataframes 
-    df = pd.read_csv("colorhexa_com.csv")
-    df_2 = pd.read_csv("wikipedia_color_names.csv")
+    df = pd.read_csv("Colors\colorhexa_com.csv")
+    df_2 = pd.read_csv("Colors\wikipedia_color_names.csv")
 
     Color = pd.concat([df,df_2],ignore_index=True,join="inner")
 

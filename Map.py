@@ -102,7 +102,7 @@ def Map(self = None, dist = None, background = None, Water_Graph = None , Water_
                                 save = False,edge_color=roadColors,
                                 edge_linewidth=roadWidths, edge_alpha=1)
     fig.tight_layout(pad=0)
-    fig.savefig(f".\Images/{FileNameColor}Basic.jpg", dpi=1000, bbox_inches='tight', format="jpg", 
+    fig.savefig(f"D:/Github/MapDesign/Images/{FileNameColor}Basic.jpg", dpi=1000, bbox_inches='tight', format="jpg", 
                 facecolor=fig.get_facecolor(), transparent=False)
 
     # For Water Image
@@ -111,9 +111,9 @@ def Map(self = None, dist = None, background = None, Water_Graph = None , Water_
         
         # Main Image + Water Image Combine 
 
-        img_road  = Image.open(f"D:\dosyalar\Github\MapDesign\Images\{FileNameColor}Basic.jpg")
+        img_road  = Image.open(f"D:/Github/MapDesign/Images/{FileNameColor}Basic.jpg")
         img_water_name = FileName()
-        img_water = Image.open(f"D:\dosyalar\Github\MapDesign\Images/{img_water_name}.png")
+        img_water = Image.open(f"D:/Github/MapDesign/Images/{img_water_name}.png")
 
         # Paste the first image onto the combined image
 
@@ -126,8 +126,14 @@ def Map(self = None, dist = None, background = None, Water_Graph = None , Water_
         combined_image.paste(img_water, (0, 0), mask=img_water)
 
         # Save the combined image
-        combined_image.save("D:\dosyalar\Github\MapDesign\Images/result.png")
+        combined_image.save("D:/Github/MapDesign/Images/result.png")
     else:
         pass
 
     return fig,WaterGraph
+
+
+
+point = [41.902782, 12.496366]
+
+print(Map(self= point,dist=10000, background="#FFFFFF",Water_Graph=True,Water_color="#FFD700"))
